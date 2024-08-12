@@ -75,7 +75,7 @@ function Chatbot() {
     await fetch("https://api.openai.com/v1/models", {
       method: "POST",
       headers: {
-        Authorization: "Bearer " + API_KEY,
+        Authorization: "Bearer ",
         "Content-Type": "application/json",
       },
       body: JSON.stringify(apiRequestBody),
